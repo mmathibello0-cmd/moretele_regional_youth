@@ -1,0 +1,316 @@
+/* ==========================================
+   MORETELE REGION YOUTH
+   RESPONSIVE.CSS
+========================================== */
+
+/* ==========================
+   LARGE DESKTOPS (1400px+)
+========================== */
+
+@media (min-width: 1400px) {
+
+    section {
+        padding: 100px 12%;
+    }
+
+    .hero h1 {
+        font-size: 5rem;
+    }
+
+    .hero h3 {
+        font-size: 2.3rem;
+    }
+
+}
+
+/* ==========================
+   LAPTOPS (1200px)
+========================== */
+
+@media (max-width: 1200px) {
+
+    section {
+        padding: 80px 8%;
+    }
+
+    .hero h1 {
+        font-size: 3.8rem;
+    }
+
+}
+
+/* ==========================
+   TABLETS
+========================== */
+
+@media (max-width: 992px) {
+
+    .navbar {
+        padding: 18px 6%;
+    }
+
+    section {
+        padding: 80px 6%;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero h3 {
+        font-size: 1.5rem;
+    }
+
+    .programme-grid,
+    .setsha-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* ==========================
+   MOBILE MENU
+========================== */
+
+@media (max-width: 768px) {
+
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+    .nav-links {
+
+        position: absolute;
+
+        top: 100%;
+        left: 0;
+
+        width: 100%;
+
+        background: white;
+
+        display: none;
+
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 0;
+
+        box-shadow: 0 8px 20px rgba(0,0,0,.15);
+
+    }
+
+    .nav-links.show {
+
+        display: flex;
+
+    }
+
+    .nav-links li {
+
+        width: 100%;
+
+        text-align: center;
+
+        border-bottom: 1px solid #eee;
+
+    }
+
+    .nav-links li a {
+
+        display: block;
+
+        padding: 18px;
+
+    }
+
+    .hero {
+
+        padding: 140px 20px 80px;
+
+        min-height: auto;
+
+    }
+
+    .hero h1 {
+
+        font-size: 2.4rem;
+
+    }
+
+    .hero h3 {
+
+        font-size: 1.2rem;
+
+    }
+
+    .hero p {
+
+        font-size: 1rem;
+
+    }
+
+    .hero-buttons {
+
+        flex-direction: column;
+
+        align-items: center;
+
+    }
+
+    .btn,
+    .btn-outline {
+
+        width: 100%;
+
+        max-width: 320px;
+
+        text-align: center;
+
+    }
+
+    .programme-grid,
+    .setsha-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .programme-card,
+    .card {
+
+        padding: 30px;
+
+    }
+
+    h2 {
+
+        font-size: 2rem;
+
+    }
+
+}
+
+/* ==========================
+   SMALL PHONES
+========================== */
+
+@media (max-width: 480px) {
+
+    body {
+
+        font-size: 15px;
+
+    }
+
+    section {
+
+        padding: 70px 20px;
+
+    }
+
+    .hero h1 {
+
+        font-size: 2rem;
+
+    }
+
+    .hero h3 {
+
+        font-size: 1rem;
+
+    }
+
+    .hero p {
+
+        font-size: .95rem;
+
+    }
+
+    h2 {
+
+        font-size: 1.7rem;
+
+    }
+
+    .programme-card,
+    .card {
+
+        padding: 25px 20px;
+
+    }
+
+    .programme-card i {
+
+        font-size: 40px;
+
+    }
+
+    .btn,
+    .btn-outline {
+
+        padding: 14px 24px;
+
+        font-size: .95rem;
+
+    }
+
+    footer {
+
+        padding: 35px 20px;
+
+    }
+
+}
+
+/* ==========================
+   EXTRA SMALL DEVICES
+========================== */
+
+@media (max-width: 360px) {
+
+    .hero h1 {
+
+        font-size: 1.8rem;
+
+    }
+
+    .hero h3 {
+
+        font-size: .95rem;
+
+    }
+
+    .logo h2 {
+
+        font-size: 1.2rem;
+
+    }
+
+    .btn,
+    .btn-outline {
+
+        width: 100%;
+
+    }
+
+}
+
+/* ==========================
+   LANDSCAPE PHONES
+========================== */
+
+@media (max-height: 500px) and (orientation: landscape) {
+
+    .hero {
+
+        min-height: auto;
+
+        padding: 120px 40px 60px;
+
+    }
+
+}
