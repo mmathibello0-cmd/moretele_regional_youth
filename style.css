@@ -2,7 +2,7 @@
    MORETELE REGION YOUTH COMMITTEE
    Main Stylesheet
 ========================================= */
-
+body{background:red!important;}
 :root{
 
     --primary:#F4C430;
